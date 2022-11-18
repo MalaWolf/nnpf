@@ -10,7 +10,7 @@ from datetime import datetime
 #les inn alle navn fra liste
 
 # Using readlines()
-file1 = open('/home/geriksen/nnpf/navnelister/samlet_alle_unik.txt', 'r')
+file1 = open('./samlet_alle_unik.txt', 'r')
 navneliste = file1.readlines()
 
 # assign directory
